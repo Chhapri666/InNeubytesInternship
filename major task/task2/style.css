@@ -1,0 +1,51 @@
+h1{
+    text-align: center;
+  }
+   
+  form{
+    text-align: center;
+   
+  }
+
+  
+  header form .search-container{
+    text-align: center;
+    height:20%;
+
+  }
+
+  header form .search-container input{
+    width: 50%;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 10px 15px;
+    border: none;
+    background-color: aliceblue;
+   
+
+  }
+
+  header form .search-container .material-symbols-outlined{
+   
+    right :10px;
+  }
+  h2{
+    
+    text-align: center;
+  }
+  
+   .images-container{
+    margin-block:50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 20px;
+   }
+
+   .images-container img{
+    width: 350px;
+    height: 300px;
+   }
+
+  

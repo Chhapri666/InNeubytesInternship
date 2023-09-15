@@ -1,0 +1,173 @@
+*{
+     margin: 0px; 
+     padding:0px;
+}
+.navbar{
+   
+    background-color: rgb(242, 245, 245);
+   
+    border-radius: 8px;
+    margin: 20px;
+    padding: 20px;
+    
+   
+    
+}
+
+a{
+    margin-right: 50px;
+}
+
+#searchbox input{
+    width: 220px;
+    height: 33px;
+    position: absolute;
+    right: 290px;
+    top: 40px;
+    border-radius: 4px;
+    
+}
+#logo img{
+    height: 30px;
+}
+
+
+
+.container #img0{
+
+    width: 100%;
+
+
+}
+
+.container #img1{
+
+    width: 50%;
+
+}
+
+.container #img2{
+
+    width: 50%;
+    position:absolute;
+    /* top:350px; */
+
+}
+
+.container #img3{
+
+    width: 50%;
+   
+    /* top:350px; */
+
+}
+.container #img4{
+
+    width: 50%;
+    position:absolute;
+    /* top:350px; */
+
+}
+
+.container #img5{
+
+    width: 100%;
+
+
+}
+.container #img6{
+
+    width: 100%;
+
+
+}
+.container #img7{
+
+  width: 100%;
+
+}
+
+.boximg img{
+    /* position:absolute;
+    height: 50%;
+    width:50%; */
+    display: inline-block;
+    height:271px;
+}
+
+.imgmainbox1 img{
+
+    display: inline-block;
+    height:271px;
+
+}
+
+.shopby img{
+    width:100%;
+
+}
+
+.imgmainbox2 img{
+
+    display: inline-block;
+    height:269px;
+
+}
+
+.lowerimg img{
+    height: 269px;
+    position: relative;
+    right: -200px;
+}
+#lowerfullimg img{
+    width: 100%;
+}
+h3{
+    padding: 20px;
+}
+
+
+/* @media(min-width:1240px)and(max-width:300px){
+    header searchbox{
+
+        position: relative;
+        right: 25px;
+
+
+
+    }
+} */
+
+
+
+
+
+@media (max-width: 768px) {
+    .navbar {
+        margin: 10px; 
+        padding: 10px; 
+    }
+
+    a {
+        margin-right: 10px; 
+    }
+
+    #searchbox input {
+        right: 10px; 
+    }
+
+    .lowerimg img {
+        right: 0;
+    }
+}
+
+@media(max-width:1240px){
+    .navbar #searchbox input{
+        right: 14px;
+
+    }
+}
+ 
+
+
+

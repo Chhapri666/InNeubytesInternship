@@ -1,0 +1,237 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+   background-color: rgb(185, 170, 170);
+   border-radius: 12px;
+
+}
+
+ul li{
+    display:inline-block;
+    padding: 10px;
+    margin: 20px;
+   
+
+}
+.left{
+    
+   
+    
+    /* position: absolute;
+    left: 160px; */
+    padding-right: 160px;
+
+   
+    position: absolute;
+    left: 220px;
+    top:100px;
+    /* padding-top: 80px; */
+
+    
+   
+
+}
+.right{
+    /* text-align: right; */
+    /* display:inline-block; */
+    position: absolute;
+    right: 0px;
+    top:100px;
+    
+}
+ .leftupperbox{
+    background-repeat: no-repeat;
+    background-color: rgb(171, 171, 224);
+    width: 50%;
+   
+    
+
+}
+.leftupperbox h1{
+    position:absolute;
+    left:250px;
+    top:-200px;
+}
+
+.rightupperbox{
+    background-repeat: no-repeat;
+    background-color: rgb(131, 214, 23);
+    width: 50%;
+   
+    position: absolute;
+    right: 0px;
+    top: 78px;
+   
+   
+   
+}
+        
+.img{
+    text-align: center;
+}
+ #imgiphone{
+    height: 250px;
+    /* margin-right: -1285px; */
+}
+
+#imgiphone1{
+    height: 250px;
+    /* text-align: right; */
+
+   
+    
+}
+.lowerbox{
+    height: 250px;
+}
+
+.lowerbox #imgiphone2{
+    height: 200px;
+}
+.lowerbox #imgiphone3{
+    height: 200px;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+     height: 100px; 
+    color: white;
+    padding: 55px;
+    position: absolute;
+    top: 850px;
+    width:90%;
+ 
+}
+
+.leftlowerbox #imgiphone2{
+    height:250px;
+    position: absolute;
+    right: 700px;
+   
+
+}
+.main1{
+    background-color: aquamarine;
+    /* width:50%; */
+    height: 250px;
+}  
+
+#lowerleft{
+    position:relative;
+    top: 0px;
+}
+
+.rightlowerbox #imgiphone3{
+    height:250px;
+    position: absolute;
+    right: 0px;
+    top: 335px;
+   
+
+}
+.main2{
+    background-color: rgb(174, 216, 20);
+    /* position:absolute; */
+    right: 0px;
+    
+}  
+
+#lowerright{
+    position:relative;
+   
+   
+    top:-200px;
+    left:590px;
+}
+ .placeholder{
+    text-align: center;
+    display: block ;
+    background-color: rgb(44, 132, 209);
+    height: 180px;
+}
+.placeholder #g{
+    border-radius: 7px;
+    width: 350px;
+    height: 25px;
+    position: relative;
+    left:0px;
+    top:15px;
+}
+
+.placeholder #h{
+    border-radius: 7px;
+    position: relative;
+    top:40px;
+    right:0px;
+    width: 350px;
+    height: 25px;
+} 
+
+.placeholder #email{
+    position: relative;
+    top:30px;
+}
+#button{
+    position: relative;
+    
+    top:50px;
+    left:590px;
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 1240px) {
+   
+    header #searchbox input {
+        width: 100%; 
+        right: 10px; 
+    }
+
+    
+}
+
+
+@media (max-width: 768px) {
+    
+    body {
+        font-size: 16px;
+    }
+    
+}
+
+
+
+
+@media (max-width: 768px) {
+    ul {
+        text-align: center;
+        background-color: rgb(185, 170, 170);
+        border-radius: 12px;
+    }
+    
+    ul li {
+        display: block; 
+        margin: 10px;
+    }
+    
+    .left, .right {
+        position: static; 
+        padding: 10px; 
+    }
+
+   
+}
+
+
+@media (min-width: 769px) {
+  
+}
+
