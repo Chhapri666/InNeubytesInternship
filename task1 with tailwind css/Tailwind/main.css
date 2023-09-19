@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Lato:wght@300;400;700;900&family=Smokum&family=Tilt+Prism&display=swap');
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html { 
+    font-size:62.5%;
+    scroll-behavior: smooth;
+    font-family: 'Hubballi', cursive;
+font-family: 'Lato', sans-serif;
+/* font-family: 'Smokum', cursive;
+font-family: 'Tilt Prism', cursive; */
+
+}
+
+
+.navbar{
+    @apply flex items-center justify-between w-full fixed top-0 z-10 h-[5.4rem] p-[3.2rem];
+}
+
+.nav_link{
+    @apply text-3xl font-semibold text-[#181b21] mx-[0.8rem] px-[0.8rem] py-[0.4rem] rounded-[0.8rem] bg-transparent hover:bg-[#181b21] hover:bg-opacity-10 transition-all duration-300;
+}
+
+.car_section{
+    @apply w-full h-screen relative;
+}
+
+.car_img{
+    @apply w-full h-full object-cover;
+}
+
+.car_details{
+    @apply absolute top-[20%] left-[50%] text-center;
+}
+
+.model_name{
+    @apply text-[4rem] text-[#393c41] font-semibold;
+}
+
+.tag_line{
+    @apply text-[#000108] text-2xl font-semibold;
+}
+.car_buttons{
+    @apply absolute top-[85%] left-[50%];
+}
+
+.btn{
+    @apply text-2xl text-white font-extrabold bg-black uppercase my-2 py-[0.4rem] px-[2.4rem] rounded-[3.2rem] w-[25.5rem] h-16 bg-opacity-80;
+}
+
+.inventory{
+    @apply  text-2xl  bg-white text-slate-950 ;
+}

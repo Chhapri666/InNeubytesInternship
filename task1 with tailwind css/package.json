@@ -1,0 +1,14 @@
+{
+  "name": "tailwind-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "postcss.config.js",
+  "scripts": {
+   "build": "tailwind build -i Tailwind/main.css -o public/tailwind.css",
+   "watch": "tailwind build -i Tailwind/main.css -o public/tailwind.css -w"
+  },
+
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
